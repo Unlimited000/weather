@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+#hdbar {
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+}
+
+section {
+    overflow: auto;
+    background-color: white;
+    background-image: url(../images/day_clear.jpg);
+    background-size: cover;
+    background-position: 100% center;
+    color: white;
+    text-shadow: 0.03em 0.03em 0.6em rgba(0,0,0,0.8);
+}
+
+.navbar {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+#top {
+    position: relative;
+}
+
+#top>div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 0.5em;
+}
+
+#date {
+    margin-bottom: 0px;
+}
+
+#city {
+    font-size: 2.3em;
+}
+
+.stxt {
+    font-size: 1.5em!important;
+}
+
+#top>div>svg {
+    font-size: 6em;
+}
+
+#info {
+    margin-top: 1.5em;
+}
+
+#mid {
+    height: 110px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.4);
+}
+
+.etc,
+.minmax {
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 0.1em!important;
+    padding-right: 0.1em!important;
+}
+
+#speed::after {
+    content: "m/s";
+    margin-left: -0.05em;
+    font-size: 0.8em;
+}
+
+#hum::after {
+    content: "%";
+    margin-left: -0.05em;
+    font-size: 0.8em;
+}
+
+.temp {
+    font-size: 2.6em;
+    text-align: center;
+    line-height: 110px;
+    padding: 0!important;
+}
+
+.temp::after {
+    content: "\2103";
+    font-size: 0.7em;
+}
+
+.row {
+    width: 100%;
+    margin: 0!important;
+}
+
+#max::after,
+#min::after {
+    content: "\2103";
+    font-size: 0.8em;
+}
+
+.minmax svg:first-of-type {
+    border-top: 2px solid white;
+}
+
+.minmax svg:last-of-type {
+    border-bottom: 2px solid white;
+}
+
+#bot {
+    height: 110px;
+}
+
+.forecast {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.forecast svg {
+    font-size: 1.5em;
+}
+
+.ftemp::after {
+    content: "\2103";
+}
+
+@media all and (orientation:landscape){
+    
+    #locbtn {
+        margin-top: -1em;
+    }
+    
+    #hdbar {
+        height: 60px;
+    }
+    
+    #top {
+        width: 40%;
+        float: left;
+        height: calc(100vh - 60px)!important;
+    }
+    
+    #midbot {
+        width: 60%;
+        float: left;
+    }
+    
+    #mid {
+        background-color: rgba(0,0,0,0.2);
+    }
+    
+    #bot {
+        background-color: rgba(0,0,0,0.2);
+    }
+    
+}
