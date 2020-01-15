@@ -8,7 +8,7 @@
 4. 반응형으로 디자인하였습니다.
 
 ## 릴리즈 정보
-1. 안드로이드 버전은 [weather 0.01 alpha](#)를 눌러서 다운로드 하실 수 있습니다.
+1. 안드로이드 버전은 [weather 0.01 alpha](https://github.com/Unlimited000/weather/raw/master/weather.apk)를 눌러서 다운로드 하실 수 있습니다.
 2. 웹 버전은 [여기](http://bbbb7788.dothome.co.kr/weather_rev)를 눌러 브라우저에서 이용할 수 있습니다.
 
 ## 개발자 정보
